@@ -44,7 +44,7 @@ button[type='submit'] {
   border: none;
   cursor: pointer;
   height: 45px;
-  width: 35%;
+  width: 100%;
   font-size: 1.2em;
   padding: 0.5em 1em;
 }
