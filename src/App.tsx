@@ -7,11 +7,11 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Navigate to="/signin" replace />} />
+        <Route path="/" element={<Todo />} />
+        {/* <Route path="/" element={<Navigate to="/signin" replace />} />
         <Route path="/signin" element={<Signin />} />
-        <Route path="/signup" element={<Signup />} />
-        <Route path="/todos" element={<Todo />} />
-        <Route path="*" element={<Navigate to="/signin" replace />} />
+        <Route path="/signup" element={<Signup />} /> */}
+        {/* <Route path="*" element={<Navigate to="/signin" replace />} /> */}
       </Routes>
     </Router>
   );
